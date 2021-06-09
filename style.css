@@ -1,0 +1,106 @@
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+}
+
+#search {
+    display: block;
+    margin-left: 300px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px lightgray solid;
+    height: 20px;
+}
+
+.buttons {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+}
+
+.relative {
+    padding: 5px;
+    position: relative;
+    background-color: #fff;
+    margin: 20px;
+    margin-left: 300px;
+}
+
+.container input {
+    margin-left: 180px !important;
+    width: 450px;
+    padding: 8px;
+}
+
+ #magnify {
+    position: absolute;
+    top: 32%;
+    cursor: pointer;
+    color: lightgray;
+    margin-left: 200px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#micro {
+   color: blue;
+   position: absolute;
+   bottom: 65.5%;
+   left: 32%;
+   cursor: pointer;
+   margin-left: 350px;
+   float: right;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#login {
+    float: right;
+    position: absolute;
+    left: 95%;
+    bottom: 97.4%;
+    cursor: pointer;
+}
+
+.container input:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%)
+}
+
+.buttons:hover {
+    box-shadow: 0 1px 5px rgb(0 0 0 / 10%)
+}
+
+ul {
+    list-style-type: none;
+    margin: -8px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: inline;
+    padding-right: 60px;
+}
+
+li a {
+    color: rgb(105, 103, 103);
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(150, 148, 148);
+}
