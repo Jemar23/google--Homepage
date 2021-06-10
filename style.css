@@ -8,7 +8,6 @@
 
 #search {
     display: block;
-    margin-left: 300px;
     border-radius: 20px;
     outline: none;
     border: 1px lightgray solid;
@@ -34,17 +33,17 @@
 }
 
 .container input {
-    margin-left: 180px !important;
+    margin-left: 210px !important;
     width: 450px;
     padding: 8px;
 }
 
  #magnify {
     position: absolute;
-    top: 32%;
+    top: 35.7%;
     cursor: pointer;
     color: lightgray;
-    margin-left: 200px;
+    margin-left: 220px;
     float: left;
     display: flex;
     justify-content: center;
@@ -54,8 +53,8 @@
 #micro {
    color: blue;
    position: absolute;
-   bottom: 65.5%;
-   left: 32%;
+   bottom: 62%;
+   left: 32.5%;
    cursor: pointer;
    margin-left: 350px;
    float: right;
@@ -68,7 +67,7 @@
     float: right;
     position: absolute;
     left: 95%;
-    bottom: 97.4%;
+    bottom: 96%;
     cursor: pointer;
 }
 
@@ -93,7 +92,7 @@ li {
 
 a {
     display: inline;
-    padding-right: 60px;
+    padding-right: 40px;
 }
 
 li a {
@@ -103,4 +102,22 @@ li a {
 
 li a:hover {
     color: rgb(150, 148, 148);
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.navbar {
+    position: relative;
+    right: 0;
+    top: 0;
+    padding: 1rem;
+    text-align: center;
 }
